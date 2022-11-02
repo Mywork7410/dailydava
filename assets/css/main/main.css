@@ -440,6 +440,33 @@ header {
   padding: 20px 0;
 }
 
+.pincode_set {
+  position: relative;
+}
+
+.pincode_set input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 10px 5px 105px;
+  border: 1px solid black;
+}
+
+.pincode_set p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.pincode_set .pin_set {
+  background-color: #fff;
+  position: absolute;
+  width: 100px;
+  height: 34px;
+  left: 1px;
+  border-radius: 10px 0 0 10px;
+  top: 1px;
+  text-align: center;
+}
+
 .product_preceed {
   padding: 50px 0;
 }
