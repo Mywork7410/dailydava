@@ -6,7 +6,7 @@ img{
     max-width: 100%;
     height: auto;
 }
-$primary:#32aeb1;
+$primary:#060809;
 $secondry:#fff;
 
 
@@ -218,7 +218,7 @@ header{
     }
     .special_discount{
         padding: 20px 0;
-        color: #32aeb1;
+        color: $primary;
         text-align: center;
     }
 }
@@ -288,14 +288,14 @@ header{
         font-weight: 600;
     }
     .addcart_btn{
-        background-color: #32aeb1;
+        background-color:$primary;
     width: 100%;
     color: #fff;
     font-size: 14px;
     border: none;
     border-radius: 10px;
     padding: 4px 0;
-    border: 1.5px solid #32aeb1;
+    border: 1.5px solid $primary;
     }
     
 }
