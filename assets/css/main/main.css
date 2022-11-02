@@ -436,6 +436,10 @@ header {
   color: #fff;
 }
 
+.category_Section {
+  padding: 20px 0;
+}
+
 .product_preceed {
   padding: 50px 0;
 }
