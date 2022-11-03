@@ -6,7 +6,7 @@ img{
     max-width: 100%;
     height: auto;
 }
-$primary:#060809;
+$primary:#188a94;
 $secondry:#fff;
 
 
@@ -62,7 +62,7 @@ header{
 }
 .header_icon{
     color:$secondry;
-    margin: 10px 5px;
+    margin: 10px 10px;
     text-align: center;
 }
 .search_box{
@@ -171,7 +171,10 @@ header{
         }
         .addcart_btn{
             background-color: $primary;
+            max-width: 70%;
             width: 100%;
+            margin: 0 auto;
+            display: block;
             color: $secondry;
             font-size: 14px;
             border: none;
@@ -279,7 +282,7 @@ header{
 }
 .process_card{
     border: 1px solid #80808061;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     .discount_offer{
         background-color: green;
@@ -303,7 +306,10 @@ header{
     }
     .addcart_btn{
         background-color:$primary;
+    max-width:70%;
     width: 100%;
+    margin: 0 auto;
+    display: block;
     color: #fff;
     font-size: 14px;
     border: none;
@@ -386,6 +392,12 @@ header{
         position: absolute;
         width: 100px;
         height: 30px;
+
+
+
+
+
+        
         left: 1px;
         border-radius: 10px 0 0 10px;   
         top: 1px;
