@@ -72,6 +72,9 @@ header {
   margin: 0;
   position: absolute;
   padding: 5px 3px;
+  font-size: 12px;
+  top: 4px;
+  left: 8px;
 }
 
 .header_icon {
