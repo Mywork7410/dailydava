@@ -477,13 +477,20 @@ footer{
     padding:50px 0 50px 0 ;
     background-color: $primary;
     color: #fff;
+    p{
+        margin: 8px 0;
+    }
     .footer_description{
         margin:10px 0;
+    }
+    h5{
+        margin: 8px 0;  
     }
     .social_media{
         display: flex;
         p{
-            margin: 10px;
+            margin-right:5px;
+            padding: 10px;
         }
     }
     .content_info{
@@ -501,9 +508,7 @@ footer{
             border-radius: 10px;
             border: none;
         }
-        p{
-            margin: 8px 0;
-        }
+    
         button{
             margin: 10px 0;
             all: unset;

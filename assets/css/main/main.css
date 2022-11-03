@@ -558,8 +558,16 @@ footer {
   color: #fff;
 }
 
+footer p {
+  margin: 8px 0;
+}
+
 footer .footer_description {
   margin: 10px 0;
+}
+
+footer h5 {
+  margin: 8px 0;
 }
 
 footer .social_media {
@@ -569,7 +577,8 @@ footer .social_media {
 }
 
 footer .social_media p {
-  margin: 10px;
+  margin-right: 5px;
+  padding: 10px;
 }
 
 footer .content_info a {
@@ -585,10 +594,6 @@ footer .mail_section input {
   padding: 5px 10px;
   border-radius: 10px;
   border: none;
-}
-
-footer .mail_section p {
-  margin: 8px 0;
 }
 
 footer .mail_section button {
