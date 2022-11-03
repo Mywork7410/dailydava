@@ -75,6 +75,7 @@ header {
   font-size: 12px;
   top: 4px;
   left: 8px;
+  text-decoration: underline;
 }
 
 .header_icon {
@@ -553,7 +554,7 @@ header {
 
 footer {
   padding: 50px 0 50px 0;
-  background-color: #000;
+  background-color: #188a94;
   color: #fff;
 }
 
@@ -577,12 +578,17 @@ footer .content_info a {
 }
 
 footer .content_info a:hover {
-  color: #188a94;
+  color: #000;
 }
 
 footer .mail_section input {
   padding: 5px 10px;
   border-radius: 10px;
+  border: none;
+}
+
+footer .mail_section p {
+  margin: 8px 0;
 }
 
 footer .mail_section button {

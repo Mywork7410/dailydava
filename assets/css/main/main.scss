@@ -67,6 +67,7 @@ header{
     font-size: 12px;
     top: 4px;
     left: 8px;
+    text-decoration: underline;
 }
 .header_icon{
     color:$secondry;
@@ -474,7 +475,7 @@ header{
 }
 footer{
     padding:50px 0 50px 0 ;
-    background-color: #000;
+    background-color: $primary;
     color: #fff;
     .footer_description{
         margin:10px 0;
@@ -490,7 +491,7 @@ footer{
             text-decoration: none;
             color: #fff;
             &:hover{
-                color: #188a94;
+                color: #000;
             }
         }
     }
@@ -498,6 +499,10 @@ footer{
         input{
             padding: 5px 10px;
             border-radius: 10px;
+            border: none;
+        }
+        p{
+            margin: 8px 0;
         }
         button{
             margin: 10px 0;
