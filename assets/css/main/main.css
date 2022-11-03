@@ -551,6 +551,49 @@ header {
   color: blue;
 }
 
+footer {
+  padding: 50px 0 50px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+footer .footer_description {
+  margin: 10px 0;
+}
+
+footer .social_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .social_media p {
+  margin: 10px;
+}
+
+footer .content_info a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .content_info a:hover {
+  color: #188a94;
+}
+
+footer .mail_section input {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+footer .mail_section button {
+  margin: 10px 0;
+  all: unset;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 10px;
+  color: #000;
+}
+
 @media (max-width: 575.98px) {
   .form_input {
     max-width: 400px;

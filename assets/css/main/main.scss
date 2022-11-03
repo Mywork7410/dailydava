@@ -472,7 +472,43 @@ header{
         }
     }
 }
-
+footer{
+    padding:50px 0 50px 0 ;
+    background-color: #000;
+    color: #fff;
+    .footer_description{
+        margin:10px 0;
+    }
+    .social_media{
+        display: flex;
+        p{
+            margin: 10px;
+        }
+    }
+    .content_info{
+        a{
+            text-decoration: none;
+            color: #fff;
+            &:hover{
+                color: #188a94;
+            }
+        }
+    }
+    .mail_section{
+        input{
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+        button{
+            margin: 10px 0;
+            all: unset;
+            border-radius:5px;
+            background-color: #fff;
+            padding: 5px 10px;
+            color: #000;
+        }
+    }
+}
 
 // -------product_preceed--------
 
